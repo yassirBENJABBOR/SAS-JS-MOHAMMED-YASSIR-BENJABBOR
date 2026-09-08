@@ -15,8 +15,8 @@
  */
 'use strict';
 
-let prixExtrait = "  349.99 MAD  ";
-let prixNettoyé = prixExtrait.trim().replace(" MAD", "");
-let prixNumber = parseFloat(prixNettoyé);
+let prixExtrait = "349.99";
+let prixNumber = parseFloat(prixExtrait);
 let prixTotal = prixNumber * 2;
-console.log(prixTotal + " (de type " + typeof prixTotal + ")");
+console.log(typeof(prixTotal));
+console.log(prixTotal + " MAD");

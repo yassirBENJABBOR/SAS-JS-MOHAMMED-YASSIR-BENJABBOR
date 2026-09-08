@@ -15,12 +15,12 @@
  */
 'use strict';
 
-let panier = 350;
+let panier = 199;
 
-if (panier > 500) {
-    panier = panier * 0.9; // Appliquer une réduction de 10%
-    console.log(`Coût final: ${panier} MAD, Livraison: Gratuite`);
-} else if (panier > 200) {
+if (panier >= 500) {
+    let newpanier = panier - (panier * 0.10); 
+    console.log(`Coût final: ${newpanier} MAD, Livraison: Gratuite`);
+} else if (panier > 200 && panier < 500) {
     console.log(`Coût final: ${panier} MAD, Livraison: Gratuite`);
 } else {
     console.log(`Coût final: ${panier} MAD, Livraison: Payante`);
