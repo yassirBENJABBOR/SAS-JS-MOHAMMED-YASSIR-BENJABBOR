@@ -15,6 +15,8 @@
  */
 'use strict';
 
-// 1. Identifie les données nécessaires.
-// 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+let prixExtrait = "  349.99 MAD  ";
+let prixNettoyé = prixExtrait.trim().replace(" MAD", "");
+let prixNumber = parseFloat(prixNettoyé);
+let prixTotal = prixNumber * 2;
+console.log(prixTotal + " (de type " + typeof prixTotal + ")");
