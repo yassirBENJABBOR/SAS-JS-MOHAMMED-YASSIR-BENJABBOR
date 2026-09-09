@@ -9,4 +9,11 @@
  */
 'use strict';
 
-// TODO: écris ta solution ici.
+let N = 100;
+let count = 0; 
+
+while (N >= 1) {
+    N /= 2;
+    count++;
+}
+console.log("Nombre de divisions nécessaires : " + count);

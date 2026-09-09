@@ -12,6 +12,13 @@
  */
 'use strict';
 
-// 1. Identifie les données nécessaires.
-// 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+let fib1 = 0;
+let fib2 = 1;
+console.log(fib1);
+console.log(fib2);
+for (let i = 2; i < 10; i++) {
+    let fib3 = fib1 + fib2;
+    console.log(fib3);
+    fib1 = fib2;
+    fib2 = fib3;
+}
