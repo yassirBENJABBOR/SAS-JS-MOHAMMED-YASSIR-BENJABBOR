@@ -11,7 +11,8 @@
  * ▶️ Commande : node day02/exercices/exercice-07.js
  */
 'use strict';
-
-// 1. Identifie les données nécessaires.
-// 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+let alphabet = '';
+for (let i = 65; i <= 90; i++) {
+    alphabet = String.fromCharCode(89,65,83,83,73,82);
+}
+console.log(alphabet);
