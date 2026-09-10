@@ -1,0 +1,34 @@
+/**
+ * ─────────────────────────────────────────────────────────────
+ * JOUR 03 · EXERCICE 14 · NIVEAU 2 : CONSOLIDATION (INTERMÉDIAIRES)
+ * CALCULATRICE MODULAIRE
+ * ─────────────────────────────────────────────────────────────
+ *
+ * 🎯 MISSION
+ * Écrivez une fonction calculatrice(a, b, signe). Utilisez un switch sur signe pour appeler l'une des 4 opérations de base (+, -, *, /) que vous aurez écrites en tant que fonctions distinctes.
+ *
+ * 📖 Consigne détaillée : ../03-exercices.md#exercice-14
+ * ▶️ Commande : node day03/exercices/exercice-14.js
+ */
+'use strict';
+
+function calculatrice(a,b,signe){
+    switch(signe){
+        case"+":
+            return a+b ;
+        case"*":
+            return a+b ;
+        case"-":
+            return a-b ;
+        case"/":
+            if (b!==0){
+            return a / b ;
+            }else{
+            return "impossible de diviser sur le zero" ;
+            }
+        default :
+            return "tnks"
+    }
+    
+}
+console.log(calculatrice(2,2,"*"))

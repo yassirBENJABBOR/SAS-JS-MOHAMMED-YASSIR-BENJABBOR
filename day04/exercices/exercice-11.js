@@ -1,0 +1,25 @@
+/**
+ * ─────────────────────────────────────────────────────────────
+ * JOUR 03 · EXERCICE 11 · NIVEAU 2 : CONSOLIDATION (INTERMÉDIAIRES)
+ * FACTORIELLE ENCAPSULÉE
+ * ─────────────────────────────────────────────────────────────
+ *
+ * 🎯 MISSION
+ * Convertissez votre logique de factorielle (Day 02) en une fonction calculerFactorielle(n). Si n = 0, la fonction doit retourner 1.
+ *
+ * 📖 Consigne détaillée : ../03-exercices.md#exercice-11
+ * ▶️ Commande : node day03/exercices/exercice-11.js
+ */
+'use strict';
+
+function calculerFactorielle(n) {
+    if (n == 0) {
+        return 1;
+    }
+    let fact = 1;
+    for (let i = 1; i <= n; i++) {
+        fact *= i;
+    }
+    return fact;
+}
+console.log("la factorielle est: " + calculerFactorielle(0));
