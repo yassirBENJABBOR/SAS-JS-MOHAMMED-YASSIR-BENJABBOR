@@ -12,7 +12,7 @@
  * ▶️ Commande : node day05/exercices/exercice-11.js
  */
 'use strict';
-
+ 
 function genererAcronymeCourt(phrase) {
     
   return phrase.split(" ").map(mot => mot[0].toUpperCase()).join("");
