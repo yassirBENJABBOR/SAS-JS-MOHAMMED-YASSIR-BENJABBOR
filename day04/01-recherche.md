@@ -21,7 +21,9 @@
 
 - [ ] J'ai recherché et compris la notion.
 
-**Ma réponse :**
+**Ma réponse :Paramètre:le Nom de variable dans la signature et il définit la fonction
+Argument	Valeur réelle transmise et À l'appel de la fonction
+ **
 
 > À compléter avec mes propres mots.
 
@@ -33,7 +35,7 @@
 
 - [ ] J'ai recherché et compris la notion.
 
-**Ma réponse :**
+**Ma réponse : console.log: Affichage dans la console   / return : Transmission d'une valeur au code**
 
 > À compléter avec mes propres mots.
 
@@ -45,7 +47,7 @@
 
 - [ ] J'ai recherché et compris la notion.
 
-**Ma réponse :**
+**Ma réponse : La fonction renvoie la valeur undefined**
 
 > À compléter avec mes propres mots.
 

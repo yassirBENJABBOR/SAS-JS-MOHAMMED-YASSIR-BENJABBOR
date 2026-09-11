@@ -1,4 +1,4 @@
-/**
+/*
  * ─────────────────────────────────────────────────────────────
  * JOUR 03 · EXERCICE 16 · NIVEAU 3 : DÉFI (AVANCÉS)
  * CLOSURE (FERMETURE)
@@ -12,4 +12,16 @@
  */
 'use strict';
 
-
+function creerCompteur(){
+    let count = 0
+    count++;
+    return count;
+}
+function moncompteur(n){
+    let moncompteur =0 ;
+    for (let i=0 ;i <=n ;i++){
+        moncompteur += creerCompteur()
+    }
+    return moncompteur 
+}
+console.log(moncompteur(1)); 
