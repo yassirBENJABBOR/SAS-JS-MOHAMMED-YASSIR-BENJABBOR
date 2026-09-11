@@ -15,3 +15,14 @@
 'use strict';
 
 
+// function estPalindrome(mot){
+//     let index = mot.lenght
+//     for (let i= 0 ;i<index -1 ;i ++){
+//         if (mot[i]!= idex )
+//     }
+// }
+
+function estPalindrome(mot){
+    return mot === mot.split("").reverse().join("");
+}
+console.log(estPalindrome("radar"))
