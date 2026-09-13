@@ -19,6 +19,27 @@
  * ▶️ Commande : node day03/challenge/challenge.js
  */
 'use strict';
+var or = 0;
+function ajouterOr(montant){
+    or+=montant;
+    console.log(`Vous avez ramassé ${montant} or. Total: ${or}`);
+}
+function depenserOr(montant){
+    if (or >=montant){
+        or -= montant
+        return  "Vous avez acheté un objet pour " + montant + " or.et il Reste:" + or ;
+    }else{
+        return "Fonds insuffisants"
+    }
+}
+function combatGagne() {
+    let gain = Math.floor(Math.random() * (50 - 10 + 1)) + 10;
+    ajouterOr(gain);
+}
 
-// Découpe d'abord le problème en petites étapes.
-// TODO: écris ta solution ici.
+
+// الفوز بـ 3 معارك
+console.log(combatGagne());
+console.log(combatGagne());
+console.log(combatGagne());
+console.log(depenserOr(100));
