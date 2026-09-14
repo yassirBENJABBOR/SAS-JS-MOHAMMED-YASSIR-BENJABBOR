@@ -12,6 +12,12 @@
  */
 'use strict';
 
-function formater(montant){
-    const montant = 1234567
+
+function formater(montant) {
+  const montantStr = montant.toString();
+  const montantFormate = montantStr.replace(/(?=(\d{3})+(?!\d))/g, " ");
+  return montantFormate + " MAD";
 }
+
+console.log(formater(134567));
+console.log(formater("987654321"));console.log(formater("987654321"));

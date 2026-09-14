@@ -12,7 +12,7 @@
  */
 'use strict';
 
-const phrase = "Ne sois pas idiot, réfléchis avant de parler.";
+const phrase = "Ne sois pas iDiot, réfléchis avant de parler.";
 const remplaceure = "idiot";
 
 const NVphrase = phrase.replace(remplaceure,"*".repeat(remplaceure.length));

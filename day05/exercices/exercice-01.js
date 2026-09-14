@@ -12,6 +12,5 @@
  */
 'use strict';
 
-
-const mot = "Anticonstitutionnellement";
-console.log(mot.length);
+const mot="Anticonstitutionnellement"
+console.log(`le nombre des caracteres est : ${mot.length}`);

@@ -18,3 +18,10 @@ function verifierEmail(email) {
 
 console.log(verifierEmail("contact.youcode.ma"));  
 
+
+
+const email = "mohammed.yassir109@gmail.com";
+function verifieremail(email){
+  return email.includes("@")
+}
+console.log(verifieremail(email))

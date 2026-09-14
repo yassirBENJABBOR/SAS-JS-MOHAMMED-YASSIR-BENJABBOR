@@ -13,10 +13,6 @@
 'use strict';
 
 function capitaliser(mot) {
-  if (!mot) return "";
-  return mot.charAt(0).toUpperCase() + mot.slice(1).toLowerCase();
+return mot[0].toUpperCase() + mot.slice(1).toLowerCase();
 }
-
 console.log(capitaliser("yOUcoDe"));
-
-

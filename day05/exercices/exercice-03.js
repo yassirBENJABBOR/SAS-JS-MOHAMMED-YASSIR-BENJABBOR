@@ -12,11 +12,6 @@
  */
 'use strict';
 
-const texte1 = "youcode";
-const texte2 = "MAROC";
-
-console.log(texte1.toUpperCase());
-console.log(texte2.toLowerCase());
-
-
-
+const mot1 = "youcode" ;
+const mot2 = "MAROC" ;
+console.log(mot1.toUpperCase() , mot2.toLowerCase())
