@@ -12,6 +12,13 @@
  */
 'use strict';
 
-// 1. Identifie les données nécessaires.
-// 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+const texte = "   Voici   une   chaîne   avec  beaucoup    d'espaces !   ";
+function conpteureMot(texte){
+const nettoyagetexte = texte.trim();
+if (nettoyagetexte === "") {
+    return 0 + ' mot';
+  }else{
+    return nettoyagetexte.split(/\s+/).length;
+}
+}
+console.log(conpteureMot(texte));
