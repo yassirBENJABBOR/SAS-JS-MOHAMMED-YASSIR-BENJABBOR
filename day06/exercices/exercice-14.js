@@ -12,6 +12,7 @@
  */
 'use strict';
 
-// 1. Identifie les données nécessaires.
-// 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+const tableau =[1, 2, 3];
+tableau.pop();
+tableau.unshift(3);
+console.log(tableau)

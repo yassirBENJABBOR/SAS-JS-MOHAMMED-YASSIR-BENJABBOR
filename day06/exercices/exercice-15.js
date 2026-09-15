@@ -12,6 +12,9 @@
  */
 'use strict';
 
-// 1. Identifie les données nécessaires.
-// 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+const tab1 = [1, 3, 5];
+const tab2 = [2, 4, 6] ;
+const fusionner = tab1.concat(tab2)
+console.log(fusionner)
+

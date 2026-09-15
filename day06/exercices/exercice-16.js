@@ -12,6 +12,6 @@
  */
 'use strict';
 
-// 1. Identifie les données nécessaires.
-// 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+const tableau = ["Prix", 15.5, null, "Quantite", 3, undefined, "Total", 46.5]
+const Nvtableau =[];
