@@ -11,16 +11,18 @@
  * ▶️ Commande : node day07/exercices/exercice-04.js
  */
 'use strict';
-
-function possedePropriete(obj, cle) {
-  return cle in obj;
-}
-
 const utilisateur = {
   nom: "Yassir benjabbor",
   age: 21,
   estAdmin: true
 };
+
+
+function possedePropriete(obj, cle) {
+  return cle in obj;
+}
+
+
 
 console.log(possedePropriete(utilisateur, "nom")); 
 console.log(possedePropriete(utilisateur, "email")); 

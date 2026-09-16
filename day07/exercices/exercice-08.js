@@ -18,13 +18,15 @@ const candidats = [
   { nom: "mohammed", score: 78 }
 ];
 
-function meilleurCandidat(candidats) {
+
+function meilleurCandidat(candidats){
   let meilleur = candidats[0];
-  for (const candidat of candidats) {
-    if (candidat.score > meilleur.score) {
-      meilleur = candidat;
+  for(const candidat of candidats){
+    if (candidat.score > meilleur.score){
+      meilleur = candidat
     }
   }
-  return meilleur.nom;
+  return meilleur.nom
 }
-console.log(meilleurCandidat(candidats));   
+console.log(meilleurCandidat(candidats))
+

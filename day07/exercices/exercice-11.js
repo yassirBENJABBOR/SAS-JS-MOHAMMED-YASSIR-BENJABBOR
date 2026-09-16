@@ -16,4 +16,4 @@ const original = { a: 1, b: 2 };
 const copie = { ...original, c: 3 };
 
 console.log("Original:", original);
-console.log("Copie:", copie);   
+console.log("Copie:", copie);

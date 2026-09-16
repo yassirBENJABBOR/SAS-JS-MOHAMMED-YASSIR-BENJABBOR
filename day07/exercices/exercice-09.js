@@ -17,9 +17,15 @@ const candidats = [
   { nom: "saad", score: 12 },
   { nom: "mohammed", score: 15 }
 ];
-
 function candidatsAdmis(candidats) {
-  return candidats.filter(candidat => candidat.score >= 10);
+  const plusgrandscore= [];
+
+  for(let i=0 ; i<candidats.length ;i++){
+    if(candidats[i].score >=10){
+      plusgrandscore.push(candidats[i])
+    }
+  }
+  return plusgrandscore;
 }
 
 console.log(candidatsAdmis(candidats));

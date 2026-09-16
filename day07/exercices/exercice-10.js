@@ -11,17 +11,15 @@
  * ▶️ Commande : node day07/exercices/exercice-10.js
  */
 'use strict';
+let caractères = "abracadabra";
+let conpteure ={};
 
-function compterOccurrences(chaine) {
-  const occurrences = {};
-  for (const lettre of chaine) {
-    if (occurrences[lettre]) {
-      occurrences[lettre]++;
-    } else {
-      occurrences[lettre] = 1;
-    }
+for(let i=0 ; i<caractères.length ; i++){
+  let lettre = caractères[i];
+  if(conpteure[lettre]){
+    conpteure[lettre]+=1
+  }else{
+    conpteure[lettre]=1
   }
-  return occurrences;
 }
-
-console.log(compterOccurrences("abracadabra")); 
+console.log(conpteure)

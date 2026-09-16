@@ -12,15 +12,3 @@
  */
 'use strict';
 
-const compteBancaire = {
-  solde: 0,
-  deposer: function(montant) {
-    this.solde += montant;
-  }
-};
-
-compteBancaire.deposer(100);
-console.log("Solde après dépôt de 100:", compteBancaire.solde);
-
-compteBancaire.deposer(50);
-console.log("Solde après dépôt de 50:", compteBancaire.solde);

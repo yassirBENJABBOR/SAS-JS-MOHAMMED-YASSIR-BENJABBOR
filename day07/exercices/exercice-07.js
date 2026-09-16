@@ -20,3 +20,4 @@ const livres = [
 ];
 
 console.log(livres[1].titre);
+console.log(livres[2].auteur);
