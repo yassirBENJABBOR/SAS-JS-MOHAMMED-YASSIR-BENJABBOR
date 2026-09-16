@@ -16,5 +16,12 @@
 const tab1 = [1, 3, 5];
 const tab2 = [2, 4, 6] ;
 const fusionner = tab1.concat(tab2)
+const trier = [];
 console.log(fusionner)
+
+for(let i=0 ;i<tab1.length ;i++){
+    trier.push(tab1[i],tab2[i])
+}
+console.log(trier)
+
 

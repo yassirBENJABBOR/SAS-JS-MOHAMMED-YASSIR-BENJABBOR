@@ -18,5 +18,24 @@
  */
 'use strict';
 
-// Découpe d'abord le problème en petites étapes.
-// TODO: écris ta solution ici.
+const panier = [101, 105, 101, 102];
+
+function ajouterAuPanier(id) {
+    panier.push(id);
+}
+
+function retirerDuPanier(id) {
+    const Nvpanier =[]
+    for(let i=0 ;i < panier.length ;i++){
+        if (!Nvpanier.includes(panier[i])){
+            Nvpanier.push(panier[i]);
+        }
+    }
+    return Nvpanier ;
+
+}
+retirerDuPanier(101)
+console.log(retirerDuPanier());
+ajouterAuPanier(1045)
+console.log(panier);
+

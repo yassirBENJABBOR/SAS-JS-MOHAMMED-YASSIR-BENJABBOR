@@ -13,5 +13,8 @@
 'use strict';
 
 
-const tableau = ["Prix", 15.5, null, "Quantite", 3, undefined, "Total", 46.5]
+const tableau = ["Prix", 15.5, null, "Quantite", 3, undefined, "Total", 46.5];
 const Nvtableau =[];
+function Scappe(tableau){
+    
+}
